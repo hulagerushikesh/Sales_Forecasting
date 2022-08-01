@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Sales Forecasting   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Project : You are provided with daily historical sales data. The task is to forecast the total amount of products sold in every shop for the test set. Note that the list of shops and products slightly changes every month. Creating a robust model that can handle such situations is part of the challenge.
+
+In depth : 
+Now lets understand the concept of the Sales Forecasting  : 
+		Sales forecasting or Future Sales Prediction is very useful analysis for sales management and the production management. Sales Analysis is important in order to understand the sales variations and item demand or market pattern to manage the production for individual product. With the proper analysis of the past sales we can predict the amount or density of the item production for particular time. 
+		The sales management directly bind to the revenue and its very useful to manage the budget and having proper sales analysis it is very easy to manage the supply chain.
+ 
+ Now lets understand , how the sales predictions can effects the bussinesses :
+Lets consider one example :
+Here we gonna take look at the supply chain of the items and also the item production
+A industry has different materials or items and have to sale this matrials or items to a customero the basis of the customer inquirires or demand. So with the help of this number we will then proceed to the production department and check for the items availability and will fetch the order
+it is when , the items are available , but the worse condition , we have no past data , so it very inconvinient to customer realibility , so having proper analysis we can easily fulfil the customer demand.
+
+By Sales analysis we can figure out the trending items or drastically increment in the demand of a particular product and will be helpful for understanding the market and manages the item production. 
+
+
+
+Understand the Data :
+File descriptions :
+ 1) sales_train.csv - the training set. Daily historical data from January 2013 to October 2015.
+ 2)test.csv - the test set. You need to forecast the sales for these shops and products for November 2015.
+ 3)sample_submission.csv - a sample submission file in the correct format.
+ 4)items.csv - supplemental information about the items/products.
+ 5)item_categories.csv  - supplemental information about the items categories.
+ 6)shops.csv- supplemental information about the shops.
+
+Data fields
+ID - an Id that represents a (Shop, Item) tuple within the test set
+shop_id - unique identifier of a shop
+item_id - unique identifier of a product
+item_category_id - unique identifier of item category
+item_cnt_day - number of products sold. You are predicting a monthly amount of this measure
+item_price - current price of an item
+date - date in format dd/mm/yyyy
+date_block_num - a consecutive month number, used for convenience. January 2013 is 0, February 2013 is 1,..., October 2015 is 33
+item_name - name of item
+shop_name - name of shop
+item_category_name - name of item category.
+
+This dataset is permitted to be used for any purpose, including commercial use.
